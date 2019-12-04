@@ -10,9 +10,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  count = 0
- # puts directors_database[:name][:movies][0][:title]
- # puts directors_database[:name][:movies][1][:title]
-  puts directors_database[0][0][0][0]
+  directors_name = 0
+
+  puts directors_database[directors_name]
     
 end
