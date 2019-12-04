@@ -14,5 +14,5 @@ def print_first_directors_movie_titles
   while directors < directors_database.length do
     puts directors_database[directors]
   end
-  directors_database
+  directors_database += 1
 end
